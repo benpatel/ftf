@@ -1,0 +1,9 @@
+body .auth0-lock.auth0-lock .auth0-lock-header-bg{
+	background-color: #FE0000;
+}
+body .auth0-lock-badge-bottom{
+	display: none;
+}
+body .auth0-lock.auth0-lock.auth0-lock-opened .auth0-lock-header-bg .auth0-lock-header-bg-blur{
+	opacity: 0;
+}

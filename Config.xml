@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.example"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>FTF</name>
+
+  <description>
+      FTF App
+  </description>
+
+  <author href="https://syntextech.com" email="ben@syntextech.com">
+      Ben Patel
+  </author>
+  <content src="index.php"/>
+
+  <plugin name="com.phonegap.plugins.facebookconnect" spec="0.9.0"> source="pgb">
+    <param name="APP_ID" value="1760499644205722" />
+    <param name="APP_NAME" value="ftf" />
+</gap:plugin>
+
+</widget>

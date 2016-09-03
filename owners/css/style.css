@@ -1,0 +1,102 @@
+.alert{
+    display: none;
+}
+#listingNav{
+
+}
+#listingNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 48px;
+
+}
+
+#listingNav ul li {
+    float: left;
+    color: #fff;
+    border-right: none;
+    border-bottom: none;
+
+}
+
+#listingNav ul li:last-of-type{
+
+}
+#listingNav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+
+}
+#listingNav ul li a.active{
+	background:#5cb85c;
+}
+/* Change the link color to #111 (black) on hover */
+#listingNav ul li a:hover {
+    background-color: #111;
+}
+#listingDetail{
+	border:solid 1px #333;
+	padding: 30px 6px 21px 6px;
+
+}
+.uploaded_image{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 3px;
+    border:solid 1px #ccc;
+    margin: 1px;
+    position: relative;
+    overflow: hidden;
+}
+.uploaded_image img{
+    width: 100%;
+    height: 100%;
+}
+
+.uploaded_image img:hover{
+    cursor: move;
+}
+.uploaded_image .image_no{
+    margin-top: -5px;
+    left: 0px;
+    top:0px;
+    position: absolute;
+    display: block;
+    border-radius: 0px 0px 5px 0px;
+    background: rgba(255,255,255,0.8);
+    padding: 5px;
+    border-right: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 0px;
+}
+.uploaded_image .delate_image{
+    margin-top: -15px;
+    text-align: center;
+    opacity: 0;
+    background: rgba(0,0,0,0.0);
+    position: absolute;
+    margin-top: -5px;
+    left: 0px;
+    bottom: -15 px;
+    width: 100%;
+    color: #fff;
+}
+.uploaded_image:hover .delate_image{
+    opacity: 1;
+    background: rgba(0,0,0,0.5);  
+    bottom: 0px; 
+    transition: bottom 0.5s ease;
+}
+.uploaded_image .delate_image:hover{
+    cursor: pointer;
+}
+.uploaded_image:hover .delate_image:hover{
+    background: rgba(0,0,0,0.7);   
+}

@@ -1,0 +1,526 @@
+ html, body {
+        margin: 0;
+        padding: 0;
+
+      }
+ p,h1,h2,h3,h4,h5,h6{
+  margin:0px;
+ }
+ .clear{
+  clear: both;
+ }
+button{
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 4px;
+    background: #f0f0f0;
+  border:solid 1px #fff
+}
+ul{
+  padding: 0px;
+}
+.no_paddiing{
+  padding: 0px !important;
+}
+.padding_5_0{
+  padding: 5px 0px;
+}
+.padding_10_0{
+  padding: 10px 0px;
+}
+.container{
+
+}
+.logo{
+  width: 100%;
+}
+#navigation .container{
+  padding-top:0px;
+}
+ .disabled{
+  color: #999 !important;
+ } 
+
+ /**** Social Css ****/
+
+.facebook_login{
+  text-align: center;
+}
+.facebook_login a{
+ display: inline-block;
+ height: 45px;
+ cursor: pointer;
+
+}
+.facebook_login img{
+ border-radius: 5px; 
+}
+
+ /****** Social Css***/
+/* textarea:focus,
+ input,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border:none;
+} 
+*/
+.error_block{
+  color:red;
+  font-size: 12px;
+  font-style: italic; 
+  display: none;
+  color: #fff;
+}
+.error{
+  display: block;
+  color: #f00;
+  border-color: red;
+}
+a:hover{
+  text-decoration: none;
+}
+ .g_marker{
+  background: #ccc;
+ } 
+ .working{
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0 ,0,0,0.5);
+   display:table-cell; 
+   vertical-align:middle; 
+   text-align:center; 
+   display: none;
+ } 
+ .working img{
+  padding-top: 50px;
+ }
+ .button_search{
+  padding: 0;
+  font-weight: bold;
+border:none;
+background:rgba(255,255,255,0.95);
+}
+
+#index_container{
+  background: url('../images/index_image_desktop.png') no-repeat center center; 
+  height:100vh;
+  width: 100%;
+}
+#main_map{
+  height: 300px;
+  width: 100%;
+  position: relative;
+}
+#list_map{
+    height: 300px;
+
+  position: relative;
+
+}
+#map {
+      height: 100%;
+      width: 100%;
+      top:0;
+      left: 0px;
+              position: absolute;
+    }
+
+
+/************ Navigation Css **************/
+#navigation{
+  background-color: #E66C82;
+  padding: 15px 0px 15px 0px;
+}    
+#header_search{
+  position: relative;
+  padding: 0px 39px 0px 34px;
+}
+#header_search input{
+  border:none;
+  padding: 10px 10px;
+
+}
+#header_search .find_truck{
+ background:rgba(255,255,255,0.95);
+  color: red;
+  position: absolute;
+  right: 0;
+  padding: 3px;
+  border-radius: 0px 4px 4px 0px  ;
+  cursor:pointer;
+}
+
+
+#header_search .location{
+ background:rgba(255,255,255,0.95);
+  position: absolute;
+  left: 0;
+  color:red;
+  padding: 3px;
+  border-radius: 4px 0px 0px 4px;
+  cursor:pointer;
+}
+#header_search .location:hover,#header_search .find_truck:hover{
+
+  background:rgba(0,0,0,0.5);
+}
+#header_search .location i,#header_search .find_truck i{
+padding: 10px;
+}
+#header_search .location img{
+
+  cursor: pointer;
+
+}
+
+#locationSelect{
+  position: absolute;
+}
+#nav_sub_menu_box{
+  padding: 5px 0px;
+}
+#nav_sub_menu_box ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+#nav_sub_menu_box ul li{
+  display: table-cell;
+  padding: 5px 10px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+}
+/********* Mobile Nav *******/
+#mobile_nav{
+  padding: 0px 15px;
+  border-bottom:ridge 1px #ccc;
+}
+
+/************** Main Section ************/
+
+
+
+/***** Side Bar For Locations**********/
+#lisings{
+  padding: 10px;
+    border: solid 1px #ccc;
+  border-top: none;
+}
+.location_results_count{
+  background: #ccc;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  border: solid 1px #ccc;
+  border-bottom: none;
+}
+
+.location_current_count{
+  padding: 5px 15px;
+}
+.location_results_pagination ul{
+  float: right;
+}
+.single_listing{
+  margin: 0px 0px 0px 0px;
+  padding:10px 0px 10px 0px;
+  border-bottom: solid 1px #ccc;
+}
+.single_listing:last-child{
+ border-bottom:none;
+ margin-bottom: 0px; 
+ padding-bottom: 10px;
+}
+.single_listing a{
+    color: #000;
+}
+.location_results_pagination ul{
+  margin: 0px;
+}
+.location_results_pagination ul li{
+  display: block;
+  float: left;
+}
+.location_results_pagination .next,.location_results_pagination .prev{
+  color: #E66C82;
+  margin: 0px 5px;
+}
+.location_results_pagination .count{
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 3px;
+}
+.listing_image{
+padding-left: 0px;
+
+}
+.listing_image img{
+margin-right: 5px;  
+}
+.listing_images{
+  margin:2px;
+  padding: 3px;
+  border:solid 1px #ccc;
+  border-radius: 5px; 
+  width: 48%;
+  float: left;
+}
+.listing_images img{
+  border-radius: 3px; 
+  width: 100%;
+}
+.listing_name{
+  font-weight: bold;
+}
+/* @ added ny Urvashi*/
+
+
+ .listing_title h2{
+    color: #e66c82;
+    padding: 10px 0px;
+}
+
+.interiorRight {
+    background-color: #fff;
+    border-radius: 6px;
+    margin: 0;
+    padding: 25px;
+}
+.listingInfo .details, .hours {
+    margin: 30px 0 0;
+}
+.listingInfo .location{
+    margin: 10px 0 0;
+  }
+.interiorRight .interiorLeft, h3 {
+    color: #579f9e;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 19px;
+    margin-bottom:10px;
+}
+
+.listingInfo .icon {
+    display: block;
+    height: 32px;
+}
+
+.interiorLeft {
+    background-color: #fff;
+    border-radius: 6px;
+    margin: 0 0px 0 0;
+    padding: 20px;
+}
+.ListingWidgets {
+    margin: 20px 0;
+}
+ .contentFulltext p{
+    clear: left;
+    line-height: 1.7em;
+   margin:10px 0px;
+}
+.button-bg {
+    bottom: 56px;
+    display: block;
+    float: right;
+    position: relative;
+}
+.jrHeading{margin:20px 0px; clear: both;}
+
+/******* Rating Box *****/
+#rating_box ul li{
+ display: block;
+ float: left;
+ height: 20px;
+}
+#rating_box ul li input{
+  display: none;
+}
+#rating_box ul {
+  background-image: url('../images/stars_map.png');
+  background-repeat: no-repeat;
+  margin: 0px;
+}
+#rating_box ul li label{
+  width: 20px;
+  height: 20px;
+  display: block;
+  float: left;
+  margin-right: 2px;
+  cursor: pointer;
+}
+#add_to_fav_btn{
+  color: #333;
+  background-color: #ccc;
+}
+#add_to_fav_btn.favrite_listing{
+  color: #333;
+  background-color:#6dec99;
+}
+#location_controls{
+  padding-top: 10px;
+}
+#location_controls li{
+  display: block;
+  margin: 2px;
+}
+
+/***** Rating System ******/
+.location_rating{
+  display: inline-block;
+background-image: url('../images/stars_map.png');
+background-repeat: no-repeat;
+background-position: -2px -513px;  
+margin: 0px;
+width: 110px;
+height: 20px;
+}
+.rating-0{
+  background-position: -2px -302px;  
+}
+.rating-10{
+  background-position: -2px -323px;  
+}
+.rating-15{
+  background-position: -2px -344px;  
+}
+.rating-20{
+  background-position: -2px -365px;  
+}
+.rating-25{
+  background-position: -2px -386px;  
+}
+.rating-30{
+  background-position: -2px -407px;  
+}
+.rating-35{
+  background-position: -2px -428px;  
+}
+.rating-40{
+  background-position: -2px -449px;  
+}
+.rating-45{
+  background-position: -2px -470px;  
+}
+.rating-50{
+  background-position: -2px -491px;  
+}
+
+.brating-0{
+  background-position: -2px -302px;  
+}
+.brating-10{
+  background-position: -2px -323px;  
+}
+.brating-15{
+  background-position: -2px -344px;  
+}
+.brating-20{
+  background-position: -2px -365px;  
+}
+.brating-25{
+  background-position: -2px -386px;  
+}
+.brating-30{
+  background-position: -2px -407px;  
+}
+.brating-35{
+  background-position: -2px -428px;  
+}
+.brating-40{
+  background-position: -2px -449px;  
+}
+.brating-45{
+  background-position: -2px -470px;  
+}
+.brating-50{
+  background-position: -2px -491px;  
+}
+/** mOBILE mENUS*/
+#menu_content{
+  box-shadow: 2px 2px 5px #ccc;
+}
+#menu_content ul{
+  list-style:none;
+  border-bottom: solid 1px #ccc;
+  margin: 0px;
+  padding: 0px;
+}
+#menu_content ul li{
+  display: block;
+  padding: 15px 10px;
+  background: #f7f7f7;
+}
+#menu_content ul li a{
+  color:#f00;
+  text-decoration: none;
+}
+#menu_content ul li a i{
+  padding-right: 10px;
+  padding-left: 10px;
+}
+#menu_content ul.site_main_ul li{
+  background: #fff;
+  text-align: center;
+}
+
+/**********  My Review Page *************/
+.review_box{
+  position: relative;
+  min-height: 100px;
+  margin:10px;
+  padding-bottom: 25px;
+  border-bottom: dotted 1px #ccc;
+}
+
+.review_box:last-child{
+  border-bottom: none
+}
+.my_reviews_img{
+  width: 80px;
+  position: absolute;
+}
+.my_reviews_img img{
+  width: 100%;
+}
+.my_reviews_detail{
+  margin-left: 90px;
+  max-height: 80px;
+  overflow: hidden;
+  min-height: 70px;
+  margin-bottom: 20px;
+}
+#review_sort_box{
+  padding-left: 10px;
+}
+.read_more_link{
+  display: none;
+}
+.extra_comment{
+  display: none;
+}
+.review_read_more{
+  display: block;
+}

@@ -1,0 +1,114 @@
+[09-May-2016 12:19:36 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'showatch_own123'@'host256.hostmonster.com' (using password: YES) in /home1/showatch/public_html/usaftf/includes/database.php on line 15
+[09-May-2016 12:19:45 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'showatch_own123'@'host256.hostmonster.com' (using password: YES) in /home1/showatch/public_html/usaftf/includes/database.php on line 15
+[09-May-2016 12:19:47 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'showatch_own123'@'host256.hostmonster.com' (using password: YES) in /home1/showatch/public_html/usaftf/includes/database.php on line 15
+[09-May-2016 12:19:47 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'showatch_own123'@'host256.hostmonster.com' (using password: YES) in /home1/showatch/public_html/usaftf/includes/database.php on line 15
+[09-May-2016 12:19:47 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'showatch_own123'@'host256.hostmonster.com' (using password: YES) in /home1/showatch/public_html/usaftf/includes/database.php on line 15
+[09-May-2016 12:19:47 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'showatch_own123'@'host256.hostmonster.com' (using password: YES) in /home1/showatch/public_html/usaftf/includes/database.php on line 15
+[09-May-2016 12:19:56 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'showatch_own123'@'host256.hostmonster.com' (using password: YES) in /home1/showatch/public_html/usaftf/includes/database.php on line 15
+[09-May-2016 12:23:20 America/New_York] PHP Notice:  Undefined variable: product in /home1/showatch/public_html/usaftf/get_locations.php on line 37
+[12-May-2016 11:06:19 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'showatch_own123'@'host256.hostmonster.com' (using password: YES) in /home1/showatch/public_html/usaftf/includes/database.php on line 15
+[12-May-2016 11:06:30 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'showatch_own123'@'host256.hostmonster.com' (using password: YES) in /home1/showatch/public_html/usaftf/includes/database.php on line 15
+[12-May-2016 11:08:56 America/New_York] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'root' (0) in /home1/showatch/public_html/usaftf/includes/database.php on line 15
+[12-May-2016 11:09:06 America/New_York] PHP Warning:  mysqli_connect(): (HY000/2005): Unknown MySQL server host 'root' (0) in /home1/showatch/public_html/usaftf/includes/database.php on line 15
+[12-May-2016 12:42:57 America/New_York] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'showatch_own123'@'host256.hostmonster.com' (using password: YES) in /home1/showatch/public_html/usaftf/includes/database.php on line 15
+[12-May-2016 21:27:06 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[12-May-2016 21:54:11 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[12-May-2016 21:54:18 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[12-May-2016 21:54:18 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[12-May-2016 21:54:18 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[12-May-2016 22:24:13 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[12-May-2016 22:25:20 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 09:43:20 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 09:43:31 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 09:44:02 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 09:44:22 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 11:20:10 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 11:20:34 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:55:37 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:55:53 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:55:56 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:56:00 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:56:30 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:56:52 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:57:12 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:57:20 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:57:36 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:57:36 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:57:53 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:57:53 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:57:54 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:57:55 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:58:01 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:58:03 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[13-May-2016 12:58:22 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[15-May-2016 18:09:49 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[16-May-2016 10:42:53 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[16-May-2016 10:43:05 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[16-May-2016 10:43:12 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[16-May-2016 10:43:17 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[16-May-2016 10:43:30 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[16-May-2016 10:43:42 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[16-May-2016 10:44:02 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[16-May-2016 10:44:17 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[16-May-2016 10:46:31 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[16-May-2016 10:46:58 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[16-May-2016 10:47:06 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[16-May-2016 10:47:17 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[16-May-2016 10:48:08 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[16-May-2016 22:27:32 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[16-May-2016 22:27:37 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 00:50:47 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 00:51:26 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 00:58:13 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 01:01:07 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 01:01:24 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 01:02:02 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 01:16:10 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 01:18:10 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 01:18:20 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 15:05:23 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 15:05:29 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 15:05:50 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 15:05:55 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 15:05:59 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 15:06:03 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 15:06:23 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[17-May-2016 15:07:47 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[18-May-2016 18:24:43 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[21-May-2016 11:34:47 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[21-May-2016 11:35:01 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[21-May-2016 11:35:17 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[21-Jun-2016 16:13:30 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[21-Jun-2016 16:13:55 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[21-Jun-2016 16:14:08 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[21-Jun-2016 16:14:23 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[21-Jun-2016 16:15:13 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[21-Jun-2016 16:15:26 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[08-Jul-2016 11:10:08 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:10:46 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:10:54 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:12:58 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:15:14 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:15:32 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:17:01 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:17:06 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:17:06 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:17:38 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:18:05 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:24:45 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:24:46 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:24:58 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:24:59 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:25:03 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:25:12 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:25:22 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:25:27 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:25:42 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:25:47 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:25:54 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:25:55 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[09-Jul-2016 23:25:58 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[10-Jul-2016 09:49:33 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[10-Jul-2016 09:49:55 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[10-Jul-2016 09:51:04 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
+[10-Jul-2016 09:51:17 America/New_York] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, object given in /home1/showatch/public_html/usaftf/includes/database.php on line 90
