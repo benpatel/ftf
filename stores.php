@@ -1,43 +1,26 @@
 <?php
 if(isset($_REQUEST['addr'])){
 	$addr = $_REQUEST['addr'];
+	
 }else{
 	$addr='';
+	
 }
-$page='';
+
+if(isset($_REQUEST['page'])){
+	$page= $_REQUEST['page'];
+}else{
+	$page=1;
+}
+
 ?>
 <?php include_once("header.php"); ?>
 
 
 <div class="container" id="location_section"><!-- Main Container -->
-
+<input id="page_no" type="hidden" name="page" value="<?php echo $page; ?>" />
 <div id="section_left"  class="col-md-8 col-sm-12">
 
-	<div id="location_filter ">
-	<div class="location_results_count clearfix">
-		<div class="col-xs-6 location_current_count"	>
-			<p style="display: inline-block;" class="hidden-xs pull-left"></p>
-			 <div class="distance_text pull-left clearfix">
-				 	<span class="arr"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
-					 <select id="distance">
-						<option value="5" selected="">5 Miles</option>
-						<option value="15">15 Miles</option>
-						<option value="25">25 Miles</option>
-						<option value="50">50 Miles</option>
-					 </select>
-			</div>
-		</div>
-
-
-		<div class="location_results_pagination col-xs-6 clearfix">
-			<ul>
-				<li><a href=""><i class="prev fa fa-caret-square-o-left fa-2x" aria-hidden="true" data-page="0"></i></a></li>
-				<li class="count"></li>
-				<li><a href=""><i class="next fa fa-caret-square-o-right fa-2x" aria-hidden="true" data-page="1"></i></a></li>
-			</ul>
-		</div>
-	</div>
-	</div>
 	<div id="lisings" class="">
 
 		<div class="clearfix single_listing row">
@@ -60,7 +43,17 @@ $page='';
 				<p class="hidden-xs hidden-sm">(516) 444 9666</p>
 			</div>
 		</div>
+	</div>
 
+	<div col-sm-12>
+			<div class="clearfix">
+				<div class="col-xs-6">
+					<a class="btn pull-left btn-default btn-prev" href="stores.php?addr=<?php echo $addr; ?>&page=<?php echo $page-1; ?>">Previous</a>
+				</div>
+				<div class="col-xs-6">
+					<a  class="btn pull-right btn-default btn-next" href="stores.php?addr=<?php echo $addr; ?>&page=<?php echo $page+1; ?>">Next</a>
+				</div>
+			</div>
 	</div>
 </div>
 
@@ -81,52 +74,16 @@ $(function(){
 
 	var current_address ='';	
 
-
-	$("#distance").change(function(){
-		
-		searchLocations();
-	});
-
 	$('input.addressInput').focus(function() { 
 		current_address = $(this).val();
 		$(this).val('');
 	});
-
 	$('input.addressInput').focusout(function(){
 
 		if($(this).val()==''){
 			$(this).val(current_address);	
 		}
 	});
-
-	$(".find_truck").click(function(){
-					
-		searchLocations();
-	});
-
-	$(".location_results_pagination .next").click(function(e){
-		
-
-		if($(".location_results_pagination .next").hasClass("disabled")){
-			e.preventDefault();
-		}
-		else{
-		searchLocations($(".location_results_pagination .next").data("page"));	
-		}
-		 e.preventDefault();
-	})
-
-	$(".location_results_pagination .prev").click(function(e){
-
-		if($(".location_results_pagination .prev").hasClass("disabled")){
-			e.preventDefault();
-		}
-		else{
-		searchLocations($(".location_results_pagination .prev").data("page"));	
-		}
-		 e.preventDefault();
-	})
-
 })
 	
 function initialize(){
@@ -151,6 +108,8 @@ function handleLocationError(browserHasGeolocation) {
  	console.log(browserHasGeolocation);
  	load(0);
 }
+
+
 </script>
 
 

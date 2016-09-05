@@ -36,7 +36,7 @@
 				$x++;
 			}
 
-			$product['sql']=$sql;
+			//$product['sql']=$sql;
 	}
 else{
 $product['status']=$_POST;

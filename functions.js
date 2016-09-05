@@ -6,7 +6,7 @@
     var lat = 40.753073;
     var lng = -73.995534;
     var Mapdata={};
-    var no_listing = 10;
+    var no_listing = 3;
     var result_listing_count=0;
 
 // Load intial Map for user location
@@ -131,8 +131,6 @@ function searchLocations(x) {
 
 function createListing(data,i){
 
-  console.log(data);
-
         var listing_rating=0;
         if((data.reviews*1)>0){
         listing_rating = (data.rating/data.reviews);
@@ -144,7 +142,6 @@ function createListing(data,i){
         var odd_even_class ='row_even';
       }
 
-        console.log(listing_rating);
   var listing_box = $('<div class="clearfix single_listing row '+odd_even_class+'">'+
     '<div class="listing_image" >'+
         '<a href="location.php?id='+data.id+'">'+
@@ -172,17 +169,16 @@ function createListing(data,i){
   $("#lisings").append(listing_box);
 }
 
-function searchLocationsNear(center,x) {
+function searchLocationsNear(center) {
   
     // clearLocations();
-    if(!x){
-    x=1;
-    }
-    var radius = $("#distance").val();
+    var x = $("#page_no").val();
+  
+  
     var location_data = {
     'lat': center.lat(),
     'lng':center.lng(),
-    'radius':radius,
+    'radius':10,
     'page':x,
     'no_listing':no_listing
     }
@@ -191,8 +187,12 @@ function searchLocationsNear(center,x) {
     var geocoder = new google.maps.Geocoder();
     geocoder.geocode({location : LatLng}, function(results, status) {
     //console.log(results[0]);
-    $("input.addressInput").val(results[0].address_components[2].long_name+", "+results[0].address_components[5].short_name+", "+results[0].address_components[7].short_name);
-      console.log(results[0].address_components[2].long_name+", "+results[0].address_components[5].short_name+", "+results[0].address_components[7].short_name);
+    var addressString=results[0].address_components[2].long_name+", "+results[0].address_components[5].short_name+", "+results[0].address_components[7].short_name;
+    if($("input.addressInput").val()==''){
+       window.location="stores.php?addr="+addressString;
+    }
+    $("input.addressInput").val(addressString);
+   
     });
     
 
@@ -216,27 +216,25 @@ function searchLocationsNear(center,x) {
       }
     });
 
-/*
-    request.done(function( data ) {
-    window.Mapdata = data;
-    praseNavigation();
-    });*/
 
-
-    if(x<=1){
-    $(".location_results_pagination .prev").addClass("disabled");
-    }else{
-    $(".location_results_pagination .prev").data("page",x-1);
-    $(".location_results_pagination .prev").removeClass("disabled");
-    }
-
-    $(".location_results_pagination .next").data("page",x+1);
 }
 
 function praseNavigation(){
   data = window.Mapdata;
   x = data.page;
   result_listing_count = data.count;
+  var last_page = Math.ceil(result_listing_count/no_listing);
+  console.log(last_page)
+  if(x==1){
+    $(".btn-prev").addClass("disabled");
+  }
+
+  if(x==last_page){
+    $(".btn-next").addClass("disabled");
+  }
+
+
+
 
 
   var last_count = x*no_listing;

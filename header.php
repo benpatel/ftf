@@ -13,7 +13,6 @@ $_SESSION['redirectURL']='http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_U
  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'  type='text/css'>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-<script src="scripts/fbLogin.js"></script>
 <script src="functions.js"></script>
 
 <!-- Latest compiled and minified JavaScript -->
