@@ -19,11 +19,12 @@ $_SESSION['redirectURL']='http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_U
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" type="text/css" href="scripts/lightbox/css/lightbox.css">
-	
+		<link rel="stylesheet" type="text/css" href="css/mobile.css">
+		<link rel="stylesheet" type="text/css" href="css/tablet.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/slider.css">
-	<link rel="stylesheet" type="text/css" href="css/tablet.css">
-	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	
+
 	<link rel="stylesheet" type="text/css" href="css/colorbox.css">
 	<link rel="stylesheet" type="text/css" href="css/auth.css">
 </head>

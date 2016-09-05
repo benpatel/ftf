@@ -524,3 +524,23 @@ height: 20px;
 .review_read_more{
   display: block;
 }
+
+.container{
+  border:solid 1px green;
+}
+/************* Home Pge **********/
+.foot_type_container{
+
+ 
+  border:solid 1px red;
+  height: 100px;
+  width: 254px;
+  float:left;
+  margin: 15px;
+  box-sizing: border-box;
+
+}
+
+.foot_type_container:nth-child(4n+1){
+  clear: both;
+}

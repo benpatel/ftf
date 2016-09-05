@@ -35,12 +35,12 @@ $("#menu_content").click(function(event){
 
 	$("#mobile_navigation").css('height',$(".block_center").outerHeight()+'px');
 	$("#location_section").css('padding-top',$("#site_nav").outerHeight()+'px');
-	$("#index_container").css('margin-top',($("#site_nav").outerHeight()*-1)+'px');
+
 	
 	$( window ).resize(function() {
 		  $("#mobile_navigation").css('height',$(".block_center").outerHeight()+'px');
 		  $("#location_section").css('padding-top',$("#site_nav").outerHeight()+'px');
-		  $("#index_container").css('margin-top',($("#site_nav").outerHeight()*-1)+'px');
+		
 	})
 
 

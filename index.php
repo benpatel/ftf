@@ -10,8 +10,42 @@ $page='index';
 
 <div class=""  id="location_section" style="margin:0px;">
 	<div id="index_container">
-		
 
+		<div class="container">
+			<div class="foot_type_container">
+
+			</div>
+
+<div class="foot_type_container">
+
+			</div>
+
+<div class="foot_type_container">
+
+			</div>
+
+<div class="foot_type_container">
+
+			</div>
+
+<div class="foot_type_container">
+
+			</div>
+
+<div class="foot_type_container">
+
+			</div>
+
+<div class="foot_type_container">
+
+			</div>
+
+<div class="foot_type_container">
+
+			</div>
+
+		
+		</div>
 	</div>
 
 </div>
