@@ -1,4 +1,4 @@
-@media screen  and (min-width: 100px)   and (max-width: 768px) {
+@media (min-width: 100px)   and (max-width: 768px) {
 	body {
   
        }
@@ -13,7 +13,6 @@
 	}
 	#index_container{
 	  background: url('../images/index_image_mobile.png') no-repeat center center; 
-	  height:100vh;
 	  width: 100%;
 	}
 	.nav_blocks{
@@ -120,5 +119,27 @@
 	}
 
 
+	.foot_type_container{	 
+	  width: 50%;
+	}
+	.foot_type_container:nth-child(4n+1){
+	 clear: none;
+	}
+	.foot_type_container:nth-child(3n+1){
+  			clear: none;
+	}		
+	.foot_type_container:nth-child(2n+1){
+	  clear: both;
+	}
+	.foot_type_container:nth-child(2n) .home_tile{
+	  margin-right: 0px;
+	}
 }
 
+@media (min-width: 100px)   and (max-width: 430px) {
+
+	.foot_type_container{	 
+	  width: 100%;
+	  clear: both;
+	}
+}

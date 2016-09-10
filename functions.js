@@ -147,7 +147,7 @@ function createListing(data,i){
         '<a href="location.php?id='+data.id+'">'+
 
 
-      '<img src="http://localhost/ftf/scripts/image.php?width=100&height=100&cropratio=1:1&image=http://localhost/ftf/location_images/1.jpg">'+
+      '<img src="'+site_base+'scripts/image.php?width=100&height=100&cropratio=1:1&image=http://localhost/ftf/location_images/1.jpg">'+
 
 
 

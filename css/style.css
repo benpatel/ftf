@@ -3,6 +3,9 @@
         padding: 0;
 
       }
+body{
+    background: url('../images/index_image_desktop.png') no-repeat top center; 
+}      
  p,h1,h2,h3,h4,h5,h6{
   margin:0px;
  }
@@ -121,8 +124,7 @@ background:rgba(255,255,255,0.95);
 }
 
 #index_container{
-  background: url('../images/index_image_desktop.png') no-repeat center center; 
-  height:100vh;
+
   width: 100%;
 }
 #main_map{
@@ -525,22 +527,39 @@ height: 20px;
   display: block;
 }
 
-.container{
-  border:solid 1px green;
-}
+
 /************* Home Pge **********/
 .foot_type_container{
 
  
-  border:solid 1px red;
-  height: 100px;
-  width: 254px;
+  width: 25%;
   float:left;
-  margin: 15px;
   box-sizing: border-box;
+  background: rgba(0.5,0.5,0.5,0.5);
+  
 
 }
-
+.foot_type_container .home_tile{
+  height: 100%;
+  position: relative;
+  background: center center;
+  padding: 18px 12px;
+}
+.foot_type_container .home_tile img{
+  width: 100%;
+}
 .foot_type_container:nth-child(4n+1){
   clear: both;
+}
+.foot_type_container:nth-child(4n) .home_tile{
+  margin-right: 0px;
+}
+.foot_type_container .title_title{
+  bottom: 10px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  left: 0px;
+  padding: 8px 0px;
 }

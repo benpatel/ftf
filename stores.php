@@ -87,6 +87,11 @@ $(function(){
 })
 	
 function initialize(){
+	var address = $(".addressInput").val();
+	if(address!=''){
+		load(0);
+	}
+	else{
 	if(navigator.geolocation){
 	  navigator.geolocation.getCurrentPosition(function(position) {	
 		  load(position);
@@ -101,6 +106,7 @@ function initialize(){
 	    // Browser doesn't support Geolocation
 	    handleLocationError(false);
 	   
+	}
 	}
 }
 

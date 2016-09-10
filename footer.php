@@ -187,14 +187,14 @@ $("body").on("click","#ajax_sign_up",function(e){
 <script type="text/javascript">
   var lock = new Auth0Lock('gK02v3NYIGziS7VfyEY9qnFwV4qID8Z3', 'syntextech.auth0.com', {
     auth: {
-      redirectUrl: 'http://localhost/ftf/authentication/authenticate.php',
+      redirectUrl: 'http://localhost:78/ftf/authentication/authenticate.php',
       responseType: 'code',
       params: {
         scope: 'openid email' // Learn about scopes: https://auth0.com/docs/scopes
       }
     },
     theme: {
-    	logo: 'http://localhost/ftf/images/logo.jpg',
+    	logo: '<?php echo SITE_BASE;?>/images/logo.jpg',
     	primaryColor: '#f00'
   	},
   	languageDictionary: {
