@@ -35,24 +35,26 @@ while( $result = $result_set->fetch_object()){
 	<div class="container" id="location_section"><!-- Main Container -->
         <div class="contentInfoContainer col-sm-12">
 	        <!-- TITLE -->
-	        <div class="listing_title">
-	            <h2 class=""><?php echo $result->name; ?></h2>
-	       </div> 
-
-			<div class="hidden visible-xs visible-sm">
-			<?php
+	        <?php
 				$listing_rating=0;
 				if($result->reviews>0){
 				$listing_rating = ($result->rating/$result->reviews);
 				$listing_rating = (floor($listing_rating * 2) / 2)*10;
 				}
 			?>
-				<p>
+	        <div class="listing_title">
+	            <h2 class=""><?php echo $result->name; ?></h2>
+	            <p>
 					<span class="location_rating rating-<?php echo $listing_rating; ?>"></span> 
 					<span class="location_reviews">
 						<a href="location_review.php?id=<?php echo $list_id; ?>">(<?php echo $result->reviews; ?>  Reviews)</a>
 					</span>
 				</p>
+	       </div> 
+
+
+			<div class="hidden visible-xs visible-sm">
+			
 				<p  class="location_address">
 						<?php echo $result->address_1; ?>
 						<?php echo $result->address_2; ?>                        
@@ -60,6 +62,15 @@ while( $result = $result_set->fetch_object()){
 
 				</p>
 			</div>
+
+
+	       	<section  class="hidden visible-xs visible-sm">
+					<ul id="location_controls">
+<span id="add_to_fav_btn" data-list-id="<?php echo $list_id; ?>" class=""><i class="fa fa-heart <?php echo $diasbled_cls." ".$fav_cls; ?>"></i>Favorite</span>
+
+<span id="share_btn" class=""><a href="write_review.php?id=<?php echo $list_id; ?>"><i class="fa fa-edit"> <?php echo $action; ?></i></a></span>
+					</ul>
+				</section>
 
 		</div>
 
@@ -72,15 +83,67 @@ while( $result = $result_set->fetch_object()){
 					<div id="map">
 					</div>
 				</div>
-				
-				<div class="clearfix">
-					<!-- CLAIM WIDGET -->
-					<ul id="location_controls">
-						<li id="add_to_fav_btn" data-list-id="<?php echo $list_id; ?>" class="pull-left  btn btn-default <?php echo $diasbled_cls." ".$fav_cls; ?> "><i class="fa fa-heart"></i> Add To Favorit</li>
-						<li id="share_btn" class="pull-left  btn btn-default "><i class="fa fa-share"></i> Share</li>
-						<li id="share_btn" class="pull-left  btn btn-default "><a href="write_review.php?id=<?php echo $list_id; ?>"><i class="fa fa-pen"><?php echo $action; ?></i></a></li>
-					</ul>
+
+				<div class="clearfix" style="margin:10px 0px;">
+
+<div class="addthis_native_toolbox row"></div>
+
 				</div>
+
+				<div class="info_table row hidden visible-xs visible-sm">
+					<table style="width:100%" class="table-responsive table-striped">
+						<tr>
+							<td>Phone</td>
+							<td>516 444 9666</td>
+						</tr>
+						<tr>
+							<td>Website</td>
+							<td>www.yahoo.com</td>
+						</tr>
+						<tr>
+							<td>Email : </td>
+							<td>ben@existmobile.com</td>
+						</tr>
+					</table>
+				</div>
+
+				<?php
+					$listing_images = $result->images;
+					$listing_images = trim($listing_images,',');
+					$listing_image = explode(",", $listing_images);
+					$listing_image = array_reverse($listing_image);
+					$no_of_images = count($listing_image);
+					if($no_of_images >=10){
+							$no_of_display_images=10;
+					}else{
+						$no_of_display_images= $no_of_images;
+					}
+					?>
+		<div class="row">
+            <ul id="lightSlider" class="content-slider">
+
+
+
+					<?php
+
+					for($im=0; $im<$no_of_display_images; $im++){
+						if($listing_image[$im]!=''){
+
+					?>
+
+
+				<li data-src="vendor/uploads/<?php echo $listing_image[$im]; ?>">
+                    <img src="vendor/uploads/<?php echo $listing_image[$im]; ?>">
+                </li>
+					<?php
+						}
+					}
+					?>
+         
+            </ul>
+        </div>
+
+
 
 				<!-- SUMMARY/DESCRIPTION -->
 				<div class="contentFulltext hidden-xs hidden-sm" >
@@ -195,14 +258,38 @@ $sql_lr =  "select listing.name, listing.featured_image, reviews.rating, reviews
 		<div id="section_right" class="col-md-4 col-sm-12 hidden-xs hidden-sm" style="position:relative">
 			<div class="interiorRight">
 				<!-- CUSTOM FIELDS -->
+				<section>
+					<ul id="location_controls">
+<span id="add_to_fav_btn" data-list-id="<?php echo $list_id; ?>" class=""><i class="fa fa-heart <?php echo $diasbled_cls." ".$fav_cls; ?>"></i>Favorite</span>
+
+<span id="share_btn" class=""><a href="write_review.php?id=<?php echo $list_id; ?>"><i class="fa fa-edit"> <?php echo $action; ?></i></a></span>
+					</ul>
+				</section>
 				<section class="listingInfo ">
 					<div class="location">
 						<h3 class="detailtitle">Location</h3>
 						<p><?php echo $result->address_1; ?></p>
 						<p><?php echo $result->address_2; ?></p>                        
 						<p><?php echo $result->city." ".$result->state."-".$result->zip; ?></p>                       
-						<p><i class="fa fa-phone"></i> <?php echo $result->phone; ?></p>                       
 					</div>
+
+					<div class="info_table hidden-xs hidden-sm">
+					<table style="width:100%" class="table-responsive table-striped">
+						<tr>
+							<td>Phone</td>
+							<td>516 444 9666</td>
+						</tr>
+						<tr>
+							<td>Website</td>
+							<td>www.yahoo.com</td>
+						</tr>
+						<tr>
+							<td>Email : </td>
+							<td>ben@existmobile.com</td>
+						</tr>
+					</table>
+				</div>
+
 					<div class="details">
 						<h3 class="detailtitle">Details</h3>
 						<span title="Outdoor Seating" class="icon pre-outdoor-seating"><span class="innerText">Outdoor Seating</span></span>                    
@@ -237,20 +324,6 @@ $sql_lr =  "select listing.name, listing.featured_image, reviews.rating, reviews
 				<section id="galleryTab">
 					<h3 class="detailtitle">Photos</h3>
 
-					<?php
-					$listing_images = $result->images;
-					$listing_images = trim($listing_images,',');
-					$listing_image = explode(",", $listing_images);
-					$listing_image = array_reverse($listing_image);
-					for($im=0; $im<count($listing_image); $im++){
-						if($listing_image[$im]!=''){
-
-					?>
-						<a href="owners/uploads/<?php echo $listing_image[$im]; ?>" data-lightbox="roadtrip" class="listing_images" style="<?php if($im > 3){ echo "display:none"; }?>"><img src="owners/uploads/<?php echo $listing_image[$im]; ?>" class="prd_images"></a>
-					<?php
-						}
-					}
-					?>
 					<div class="clear"></div>
 				</section>
 			</div>

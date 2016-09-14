@@ -19,6 +19,9 @@ $_SESSION['redirectURL']='http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_U
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 	<link rel="stylesheet" type="text/css" href="scripts/lightbox/css/lightbox.css">
+	<link rel="stylesheet" type="text/css" href="http://sachinchoolur.github.io/lightslider/src/css/lightslider.css">
+	<link rel="stylesheet" type="text/css" href="http://sachinchoolur.github.io/lightGallery/lightgallery/css/lightgallery.css">
+
 		
 	<link rel="stylesheet" type="text/css" href="css/slider.css">
 

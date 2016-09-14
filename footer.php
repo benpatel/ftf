@@ -1,6 +1,8 @@
 <div class="working">
 <img src="images/loading.gif" />
 </div>
+	<script type="text/javascript" src="scripts/lightslider.js"></script>
+	<script type="text/javascript" src="http://sachinchoolur.github.io/lightGallery/lightgallery/js/lightgallery.js"></script>
 
 <script type="text/javascript">
 
@@ -179,6 +181,42 @@ $("body").on("click","#ajax_sign_up",function(e){
 	e.preventDefault();
 })
 
+
+
+$("#lightSlider").lightSlider({
+                loop:true,
+                item:3,
+                keyPress:true,
+                slideMargin:0,
+                pager:false,
+                gallery:true,
+                autoWidth:true,
+                freeMove:true,
+                responsive : [
+					           
+					            {
+					                breakpoint:500,
+					                settings: {
+					                    item:2,
+					                    slideMove:1
+					                  }
+					            },
+					            {
+					                breakpoint:400,
+					                settings: {
+					                    item:1,
+					                    slideMove:1
+					                  }
+					            }
+					        ],
+				onSliderLoad: function(el) {
+			            el.lightGallery({
+			                selector: '#lightSlider .lslide'
+			            });
+        		}
+            });
+
+
 	</script>
 	<script type="text/javascript" src="scripts/lightbox/js/lightbox.js"></script>
 	<script type="text/javascript" src="js/jquery.colorbox.js"></script>
@@ -187,7 +225,7 @@ $("body").on("click","#ajax_sign_up",function(e){
 <script type="text/javascript">
   var lock = new Auth0Lock('gK02v3NYIGziS7VfyEY9qnFwV4qID8Z3', 'syntextech.auth0.com', {
     auth: {
-      redirectUrl: 'http://localhost:78/ftf/authentication/authenticate.php',
+      redirectUrl: 'http://localhost/ftf/authentication/authenticate.php',
       responseType: 'code',
       params: {
         scope: 'openid email' // Learn about scopes: https://auth0.com/docs/scopes
