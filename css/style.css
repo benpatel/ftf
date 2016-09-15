@@ -3,9 +3,7 @@
         padding: 0;
 
       }
-body{
-    background: url('../images/index_image_desktop.png') no-repeat top center; 
-}      
+      
  p,h1,h2,h3,h4,h5,h6{
   margin:0px;
  }
@@ -43,6 +41,10 @@ ul{
  .disabled{
   color: #999 !important;
  } 
+ #location_section{
+  background: #fff;
+  margin-top: 25px;
+ }
 
  /**** Social Css ****/
 
@@ -226,7 +228,6 @@ padding: 10px;
 #lisings{
   padding: 10px;
     border: solid 1px #ccc;
-  border-top: none;
 }
 .location_results_count{
   background: #ccc;

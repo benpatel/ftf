@@ -5,14 +5,18 @@ $uploaded_files =array();
 $id = $_POST['list_id'];
 $img_string = '';
 $separator=',';
-//echo "<pre>";
-//print_r($_FILES);
+/*echo "<pre>";
+print_r($_FILES);*/
 
 $sqlm = "select images from listing where id={$id}";
             $result_setm = $dtb->query($sqlm);
             while( $resultm = $result_setm->fetch_object()){
                 $img_string = $resultm->images;
             }
+
+if($img_string=='-'){
+    $img_string='';
+}
 
 for($x=0; $x<count($_FILES["fileToUpload"]["name"]); $x++){
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"][$x]);

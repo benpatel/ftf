@@ -45,6 +45,7 @@ if(isset($_REQUEST['id']) && $_REQUEST['id'] !=''){
 <p id="list_id" style="display:none"><?php echo $list_id; ?></p>
 	<ul>
 		<li><a href="addListing.php<?php echo $listing_id; ?>" class="active">Address</a></li>
+		<li><a href="details.php<?php echo $listing_id; ?>" class="">Details</a></li>
 		<li><a href="managepictures.php<?php echo $listing_id; ?>"  class="">Images</a></li>
 		<li><a href="managevideos.php<?php echo $listing_id; ?>"  class="">Videos</a></li>
 		<li><a href="managereviews.php<?php echo $listing_id; ?>"  class="">Reviews</a></li>

@@ -127,13 +127,13 @@ while( $result = $result_set->fetch_object()){
 					<?php
 
 					for($im=0; $im<$no_of_display_images; $im++){
-						if($listing_image[$im]!=''){
+						if($listing_image[$im]!='' && $listing_image[$im]!='-'){
 
 					?>
 
 
-				<li data-src="vendor/uploads/<?php echo $listing_image[$im]; ?>">
-                    <img src="vendor/uploads/<?php echo $listing_image[$im]; ?>">
+				<li data-src="owners/uploads/<?php echo $listing_image[$im]; ?>">
+                    <img src="owners/uploads/<?php echo $listing_image[$im]; ?>">
                 </li>
 					<?php
 						}

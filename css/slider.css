@@ -54,3 +54,9 @@ display:none;
 	width: 80%;
 	height: 100%;
 }
+#lightSlider img {
+    display: block;
+    height: auto;
+    width: 240px;
+    height: 240px;
+}
